@@ -1,0 +1,9 @@
+
+
+<% a = @grid - @guess %>
+<% b =  @guess - @grid%>
+<% if(@guess -@grid)empty? %>
+<p>Congratulations <%= @guess %> is an english word!</p>
+<% else %>
+<p>This is not an english word!</p>
+<% end %>
